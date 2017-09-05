@@ -1,0 +1,31 @@
+digraph BST_Tree {
+    node [fontname="Arial"];
+    "666,11" -> "665,10";
+    "665,10" -> "500,2";
+    null28 [shape=point];
+    "500,2" -> null28;
+    "500,2" -> "625,4";
+    null29 [shape=point];
+    "625,4" -> null29;
+    null30 [shape=point];
+    "625,4" -> null30;
+    null31 [shape=point];
+    "665,10" -> null31;
+    "666,11" -> "667,9";
+    null32 [shape=point];
+    "667,9" -> null32;
+    "667,9" -> "687,5";
+    "687,5" -> "671,7";
+    null33 [shape=point];
+    "671,7" -> null33;
+    null34 [shape=point];
+    "671,7" -> null34;
+    "687,5" -> "750,3";
+    null35 [shape=point];
+    "750,3" -> null35;
+    "750,3" -> "1000,1";
+    null36 [shape=point];
+    "1000,1" -> null36;
+    null37 [shape=point];
+    "1000,1" -> null37;
+}

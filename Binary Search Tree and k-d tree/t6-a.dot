@@ -1,0 +1,34 @@
+digraph KD_Tree {
+    node [fontname="Arial"];
+    "375,125,3" -> "250,250,2";
+    "250,250,2" -> "332,168,14";
+    "332,168,14" -> "327,173,6";
+    "327,173,6" -> "332,168,11";
+    "332,168,11" -> "332,168,13";
+    "332,168,13" -> "332,168,15";
+    null17 [shape=point];
+    "332,168,15" -> null17;
+    null18 [shape=point];
+    "332,168,15" -> null18;
+    "332,168,13" -> "331,169,8";
+    null19 [shape=point];
+    "331,169,8" -> null19;
+    null20 [shape=point];
+    "331,169,8" -> null20;
+    null21 [shape=point];
+    "332,168,11" -> null21;
+    null22 [shape=point];
+    "327,173,6" -> null22;
+    "332,168,14" -> "343,157,5";
+    null23 [shape=point];
+    "343,157,5" -> null23;
+    null24 [shape=point];
+    "343,157,5" -> null24;
+    null25 [shape=point];
+    "250,250,2" -> null25;
+    "375,125,3" -> "500,0,1";
+    null26 [shape=point];
+    "500,0,1" -> null26;
+    null27 [shape=point];
+    "500,0,1" -> null27;
+}

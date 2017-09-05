@@ -1,0 +1,13 @@
+strict graph {
+    node [fontname="Arial"];
+    r -- v;
+    v -- r;
+    w -- t;
+    w -- z;
+    t -- w;
+    u -- y;
+    y -- u;
+    y -- z;
+    z -- w;
+    z -- y;
+}

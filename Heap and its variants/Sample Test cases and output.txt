@@ -1,0 +1,362 @@
+============================================ Test Case 1 ============================================
+
+============================================ Test Case 1->1
+
+Insert the following data items to PQ in the given order: [100 1] [99 2] ... [1 100] 
+
+
+============================================ Test Case 1->2
+
+Apply Extra-all-min operation to PQ and print the results to the screen  
+
+Result:
+[1, 100] 
+
+============================================ Test Case 1->3
+
+Insert the data [1 0] to PQ  
+
+============================================ Test Case 1->4
+Apply Extra-all-min operation to PQ and print the results to the screen  
+
+
+Result:
+[1, 0] 
+
+============================================ Test Case 1 END ============================================
+
+
+============================================ Test Case 2 ============================================
+
+============================================ Test Case 2->1
+Insert the following data items to P Q in the given order: [1000 1] [999 2] ... [1 1000] 
+
+
+============================================ Test Case 2->2
+Apply All-Minimum operation to PQ and print the results to the screen 
+
+Result:
+[1, 1000] 
+
+============================================ Test Case 2->3
+Insert the following data items to P Q in the given order: [1 1] [1 2] ... [1 30] 
+
+============================================ Test Case 2->4
+Apply Extra-all-min operation to PQ and print the results to the screen
+
+Result:
+[1, 1000] [1, 24] [1, 25] [1, 26] [1, 27] [1, 28] [1, 29] [1, 30] [1, 23] [1, 1] [1, 2] [1, 3] [1, 19] [1, 4] [1, 5] [1, 6] [1, 15] [1, 7] [1, 8] [1, 9] [1, 10] [1, 11] [1, 12] [1, 13] [1, 14] [1, 16] [1, 17] [1, 18] [1, 20] [1, 21] [1, 22] 
+
+============================================ Test Case 2->5
+Apply All-Minimum operation to PQ and print the results to the screen 
+
+Result:
+[2, 999] 
+============================================ Test Case 2 END ============================================
+
+
+============================================ Test Case 3 ============================================
+
+============================================ Test Case 3->1
+
+Insert 500 randomly generated data items to PQ. For each of these data item [i j], 10 ≤ i, j ≤ 1000
+
+============================================ Test Case 3->2
+Apply Extra-all-min operation to PQ 5 times, and print the results to the screen each time right after the Extra-all-min operation is completed
+
+
+
+Result:
+[11, 990] 
+
+Result:
+[14, 941] 
+
+Result:
+[15, 895] 
+
+Result:
+[16, 345] 
+
+Result:
+[17, 13] 
+============================================ Test Case 3->3
+Randomly select a data item from the P Q. Decrease the key value to 5
+random val Selected: 
+[308, 214]
+
+change it to: [5, 214]
+
+
+============================================ Test Case 3->4 
+Apply the All-Minimum operation to PQ and print the results to the screen
+
+
+Result:
+[5, 214] 
+============================================ Test Case 3 END ============================================
+
+
+============================================ Test Case 4 ============================================
+
+============================================ Test Case 4->1
+
+Insert 500 randomly generated data items to PQ. For each of these data item [i j], 10 ≤ i, j ≤ 1000.
+
+============================================ Test Case 4->1 END
+
+============================================ Test Case 4->2 
+
+Perform 10 Decrease-key operations to PQ. When a Decrease-key operation is performed, the data item should be chosen randomly from the current PQ and the key value should be decreased to a randomly selected value that lies between 0 to 9.
+random val: [791, 274]
+change it to: [1, 274]
+
+random val: [707, 606]
+change it to: [4, 606]
+
+random val: [616, 695]
+change it to: [4, 695]
+
+random val: [762, 269]
+change it to: [1, 269]
+
+random val: [176, 897]
+change it to: [4, 897]
+
+random val: [29, 972]
+change it to: [1, 972]
+
+random val: [514, 373]
+change it to: [4, 373]
+
+random val: [584, 143]
+change it to: [3, 143]
+
+random val: [81, 504]
+change it to: [5, 504]
+
+random val: [702, 352]
+change it to: [8, 352]
+
+
+============================================ Test Case 4->3 
+
+Perform 10 Extra-min operations to PQ and print the results to the screen each time such an operation is performed.
+
+
+Result:
+[1, 274] [1, 972] [1, 269] 
+
+Result:
+[3, 143] 
+
+Result:
+[4, 695] [4, 606] [4, 897] [4, 373] 
+
+Result:
+[5, 504] 
+
+Result:
+[8, 352] 
+
+Result:
+[15, 587] 
+
+Result:
+[16, 506] 
+
+Result:
+[21, 494] 
+
+Result:
+[24, 138] 
+
+Result:
+[30, 720] 
+============================================ Test Case 4 END ============================================
+
+
+============================================ Test Case 5 ============================================
+
+
+
+============================================ Test Case 5->1 
+
+Perform 100 randomly generated operations to PQ. The random generated operations should include all four operations stated. In addition, when a Decrease key operation is chosen, the data item should be chosen randomly from the current PQ and the key value should be decreased that is less than all the existing key value.
+
+
+After 20 operation: 
+[192, 722] 
+
+
+After 20 operation: 
+Error, Heap Underflow
+
+
+
+After 20 operation: 
+[187, 403] 
+
+
+After 20 operation: 
+[108, 456] 
+
+
+After 20 operation: 
+[245, 447] [377, 436] [282, 575] [701, 449] [660, 696] [649, 668] 
+============================================ Test Case 5 END ============================================
+
+
+============================================ Test Case 6 ============================================
+
+
+
+============================================ Test Case 6->1 
+
+Inserting Elements into Vector A.
+
+============================================ Test Case 6->2 
+
+Now, Applying Smooth Sort to Vector A.
+
+============================================ Test Case 6->3 
+
+Print the following data to the screen:
+
+The total number of comparisons among elements in A performed = "20976"
+
+============================================ Test Case 6->4 
+
+A shortened listing of element of A :
+[1, 21, 41, 61, 81, 101, 121, 141, 161, 181, 201, 221, 241, 261, 281, 301, 321, 341, 361, 381, 401, 421, 441, 461, 481, 501, 521, 541, 561, 581, 601, 621, 641, 661, 681, 701, 721, 741, 761, 781, 801, 821, 841, 861, 881, 901, 921, 941, 961, 981, ]
+
+============================================ Test Case 6->4 END
+
+
+============================================ Test Case 6 END ============================================
+
+
+============================================ Test Case 7 ============================================
+
+
+
+============================================ Test Case 7->1 
+
+Initially generated a almost sorted list by first setting A to be:
+
+============================================ Test Case 7->2 
+
+Randomly select 20 distinct numbers that lies between 1 to 2000, say i1, . . . , i20. Swap A[i1] and A[i2], A[i3] and A[i4], , ..., A[i19] and A[i20] (Here, I assume the array index starts with 1).
+
+============================================ Test Case 7->3 
+
+Applying Smooth Sort to A.
+
+============================================ Test Case 7->4 
+
+Print the following data to the screen:
+
+The total number of comparisons among elements in A performed = "8682"
+
+============================================ Test Case 7->5 
+
+A shortened listing of element of A :
+[1, 21, 41, 61, 81, 101, 121, 141, 161, 181, 201, 221, 241, 261, 281, 301, 321, 341, 361, 381, 401, 421, 441, 461, 481, 501, 521, 541, 561, 581, 601, 621, 641, 661, 681, 701, 721, 741, 761, 781, 801, 821, 841, 861, 881, 901, 921, 941, 961, 981, 1001, 1021, 1041, 1061, 1081, 1101, 1121, 1141, 1161, 1181, 1201, 1221, 1241, 1261, 1281, 1301, 1321, 1341, 1361, 1381, 1401, 1421, 1441, 1461, 1481, 1501, 1521, 1541, 1561, 1581, 1601, 1621, 1641, 1661, 1681, 1701, 1721, 1741, 1761, 1781, 1801, 1821, 1841, 1861, 1881, 1901, 1921, 1941, 1961, 1981, ]
+
+
+============================================ Test Case 7 END ============================================
+
+
+
+
+============================================ Test Case 8 ============================================
+
+
+
+============================================ Test Case 8->1 
+
+Initially generated a almost sorted list by first setting A to be:
+
+============================================ Test Case 8->2 
+
+Randomly select 60 distinct numbers that lies between 1 to 1000, say i1, . . . , i60. Permute A[i1], A[i2] and A[i3], Permute A[i4], A[i5] and A[i6], ..., Permute A[i58], A[i59] and A[i60] (Here, I assume the array index starts with 1).
+
+============================================ Test Case 8->3 
+
+Apply Smooth Sort to A:
+
+============================================ Test Case 8->4 
+
+Print the following data to the screen:
+
+The total number of comparisons among elements in A performed = "9001"
+
+============================================ Test Case 8->5 
+
+A shortened listing of element of A :
+[1, 21, 41, 61, 81, 101, 121, 141, 161, 181, 201, 221, 241, 261, 281, 301, 321, 341, 361, 381, 401, 421, 441, 461, 481, 501, 521, 541, 561, 581, 601, 621, 641, 661, 681, 701, 721, 741, 761, 781, 801, 821, 841, 861, 881, 901, 921, 941, 961, 981, 1001, 1021, 1041, 1061, 1081, 1101, 1121, 1141, 1161, 1181, 1201, 1221, 1241, 1261, 1281, 1301, 1321, 1341, 1361, 1381, 1401, 1421, 1441, 1461, 1481, 1501, 1521, 1541, 1561, 1581, 1601, 1621, 1641, 1661, 1681, 1701, 1721, 1741, 1761, 1781, 1801, 1821, 1841, 1861, 1881, 1901, 1921, 1941, 1961, 1981, ]
+============================================ Test Case 8 END ============================================
+
+
+
+
+============================================ Test Case 9 ============================================
+
+
+
+============================================ Test Case 9->1 
+
+Initially set B to be a list of length 3193, a Leonardo number.
+
+============================================ Test Case 9->2 
+
+Fill the entries of B randomly with numbers selected from 1 to 10000. The numbers may not be all distinct.
+
+============================================ Test Case 9->3 
+
+Apply Smooth Sort to B.
+
+============================================ Test Case 9->4 
+
+Print the following data to the screen:
+
+The total number of comparisons among elements in B performed = "90513"
+
+============================================ Test Case 9->5 
+
+A shortened listing of element of B :
+[1, 53, 110, 176, 211, 290, 345, 410, 470, 526, 578, 635, 738, 805, 847, 902, 969, 1025, 1108, 1166, 1216, 1284, 1334, 1415, 1506, 1542, 1593, 1664, 1709, 1803, 1899, 1970, 2032, 2079, 2153, 2228, 2279, 2331, 2430, 2487, 2537, 2614, 2683, 2737, 2785, 2839, 2912, 2981, 3031, 3074, 3150, 3219, 3270, 3344, 3398, 3469, 3539, 3607, 3656, 3700, 3757, 3826, 3876, 3958, 4015, 4077, 4143, 4198, 4251, 4304, 4362, 4438, 4517, 4552, 4617, 4671, 4738, 4796, 4899, 4947, 4999, 5059, 5113, 5182, 5265, 5315, 5393, 5451, 5520, 5577, 5664, 5718, 5790, 5875, 5962, 6048, 6105, 6166, 6212, 6253, 6328, 6391, 6456, 6517, 6567, 6624, 6671, 6718, 6787, 6844, 6894, 6964, 7037, 7092, 7157, 7189, 7226, 7279, 7332, 7392, 7451, 7499, 7570, 7636, 7710, 7760, 7835, 7892, 7976, 8038, 8101, 8177, 8240, 8274, 8326, 8399, 8455, 8495, 8571, 8638, 8692, 8791, 8859, 8904, 8937, 8975, 9058, 9118, 9174, 9250, 9327, 9402, 9488, 9561, 9603, 9664, 9755, 9857, 9916, 9956, ]
+============================================ Test Case 9 END ============================================
+
+
+
+
+============================================ Test Case 10 ============================================
+
+
+
+============================================ Test Case 10->1 
+
+Initially set A to be a list of length 5166 the sum of two Leonardo numbers.
+
+============================================ Test Case 10->2 
+
+Fill the entries of C randomly with numbers selected from 1 to 10000. The numbers may not be all distinct.
+
+============================================ Test Case 10->3 
+
+Apply Smooth Sort to C.
+
+============================================ Test Case 10->4 
+
+Print the following data to the screen:
+
+The total number of comparisons among elements in C performed = "157958"
+
+============================================ Test Case 10->5 
+
+A shortened listing of element of C :
+[1, 43, 76, 115, 153, 200, 225, 246, 280, 310, 338, 373, 408, 456, 481, 510, 553, 592, 629, 696, 719, 755, 785, 815, 855, 893, 929, 981, 1031, 1066, 1112, 1151, 1193, 1244, 1289, 1320, 1356, 1399, 1435, 1480, 1524, 1570, 1606, 1634, 1671, 1718, 1753, 1777, 1800, 1842, 1877, 1918, 1955, 2007, 2043, 2082, 2128, 2178, 2221, 2276, 2318, 2367, 2414, 2440, 2479, 2516, 2570, 2615, 2656, 2704, 2744, 2781, 2822, 2860, 2897, 2932, 2963, 3000, 3051, 3073, 3125, 3157, 3190, 3228, 3255, 3292, 3337, 3366, 3420, 3451, 3504, 3553, 3590, 3624, 3674, 3701, 3727, 3758, 3796, 3840, 3881, 3921, 3947, 3979, 4038, 4093, 4142, 4171, 4215, 4261, 4308, 4338, 4389, 4438, 4478, 4515, 4549, 4582, 4607, 4641, 4697, 4732, 4775, 4829, 4873, 4908, 4957, 4976, 5001, 5031, 5070, 5113, 5149, 5182, 5225, 5275, 5315, 5368, 5407, 5440, 5467, 5523, 5556, 5600, 5640, 5671, 5702, 5735, 5769, 5801, 5859, 5897, 5940, 5970, 6009, 6072, 6117, 6149, 6186, 6234, 6262, 6311, 6335, 6375, 6410, 6450, 6480, 6528, 6583, 6622, 6653, 6694, 6721, 6752, 6786, 6830, 6871, 6916, 6965, 6998, 7045, 7104, 7130, 7181, 7226, 7255, 7301, 7332, 7371, 7400, 7440, 7479, 7508, 7549, 7589, 7623, 7670, 7717, 7745, 7784, 7822, 7861, 7900, 7940, 7983, 8018, 8053, 8089, 8123, 8157, 8200, 8236, 8269, 8327, 8358, 8398, 8429, 8479, 8506, 8545, 8582, 8627, 8655, 8711, 8743, 8794, 8837, 8861, 8890, 8938, 8976, 9019, 9060, 9094, 9130, 9156, 9200, 9241, 9287, 9322, 9355, 9379, 9416, 9446, 9500, 9538, 9559, 9599, 9644, 9676, 9725, 9760, 9798, 9823, 9853, 9876, 9915, 9950, 9983, ]
+============================================ Test Case 10 END ============================================
+
+

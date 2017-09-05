@@ -1,0 +1,448 @@
+
+
+/============================== TEST CASE 1 ==============================/
+
+
+ 	 Undirected ------- Unweighted 
+at 0
+
+ Dot file t1.dot created
+
+/============================== TEST CASE 2 ==============================/
+
+
+ 	 directed ------- Unweighted
+
+
+Dot file t2.dot created
+
+/============================== TEST CASE 3 ==============================/
+
+
+ 	 directed ------- weightedr
+
+
+ Dot file t3.dot created
+
+/============================== TEST CASE 4 ==============================/
+
+
+ Adding vertex "Z" and Edges 
+
+
+ Dot File t4a.dot created
+ Deleting vertex "S" and Edges 
+
+ Deleting vertex "X" and Edges 
+
+ Deleting edges between "S" and "U and T" 
+
+
+ Dot File t4b.dot created
+
+/============================== TEST CASE 5 ==============================/
+
+
+ Adding vertex "6....10" and Edges 
+
+ Adding vertex "1....5" and Edges 
+
+
+ Dot File t5a.dot created
+ Deleting vertex "8 and then 6" 
+
+
+ Dot File t5b.dot created
+
+/============================== TEST CASE 6 ==============================
+
+
+Inserting random value: 8
+Inserting random value: 4
+Inserting random value: 6
+Inserting random value: 2
+Inserting random value: 10
+Inserting random value: 7
+Inserting random value: 3
+Inserting random value: 5
+Inserting random value: 1
+Inserting random value: 9
+Inserting edges
+
+1 2
+
+3 4
+
+5 6
+
+7 8
+
+9 10
+
+
+ Dot File t6a.dot created
+Deleting: 4
+Deleting: 3
+
+ t6b.dot created
+
+/============================== TEST CASE 7 ==============================/
+
+
+   Vertex Name 	 Distance from source vertex s
+
+	t			8
+	y			5
+	x			9
+	z			7
+
+   Vertex Name 	 Distance from source vertex t
+
+	s			11
+	y			2
+	x			1
+	z			4
+
+   Vertex Name 	 Distance from source vertex y
+
+	s			9
+	t			3
+	x			4
+	z			2
+
+   Vertex Name 	 Distance from source vertex x
+
+	s			11
+	t			19
+	y			16
+	z			4
+
+   Vertex Name 	 Distance from source vertex z
+
+	s			7
+	t			15
+	y			12
+	x			6
+
+
+/============================== TEST CASE 8 ==============================/
+
+
+   Vertex Name 	 Distance from source vertex s
+
+	t			7
+	y			5
+	x			8
+	z			7
+
+   Vertex Name 	 Distance from source vertex t
+
+	s			7
+	y			2
+	x			1
+	z			4
+
+   Vertex Name 	 Distance from source vertex y
+
+	s			5
+	t			2
+	x			3
+	z			2
+
+   Vertex Name 	 Distance from source vertex x
+
+	s			8
+	t			1
+	y			3
+	z			4
+
+   Vertex Name 	 Distance from source vertex z
+
+	s			7
+	t			4
+	y			2
+	x			4
+
+
+/============================== TEST CASE 9 ==============================/
+
+
+------------------------------------------------------------------------
+   Vertex Name 	 The Path from source vertex s to this vertex in G3
+------------------------------------------------------------------------
+	s 		nil
+	t 		s y t 
+	y 		s y 
+	x 		s y t x 
+	z 		s y z 
+
+------------------------------------------------------------------------
+   Vertex Name 	 The Path from source vertex z to this vertex in G3
+------------------------------------------------------------------------
+	s 		z s 
+	t 		z s y t 
+	y 		z s y 
+	x 		z x 
+	z 		nil
+
+
+/============================== TEST CASE 10 ==============================/
+
+
+------------------------------------------------------------------------
+   Vertex Name 	 The Path from source vertex s to this vertex in G3
+------------------------------------------------------------------------
+	s 		nil
+	t 		s y t 
+	y 		s y 
+	x 		s y t x 
+	z 		s z 
+
+------------------------------------------------------------------------
+   Vertex Name 	 The Path from source vertex z to this vertex in G3
+------------------------------------------------------------------------
+	s 		z s 
+	t 		z y t 
+	y 		z y 
+	x 		z x 
+	z 		nil
+
+
+/============================== TEST CASE 11 ==============================/
+
+
+Graph G3 Path: s->y->z->s->t
+
+ dot file t11.dot created!!
+
+/============================== TEST CASE 12 ==============================/
+
+
+Graph G4 Path:
+ s->y->x->t
+
+ Dot file t12.dot created
+
+
+/============================== TEST CASE 1 ==============================/
+
+
+ 	 Undirected ------- Unweighted 
+at 0
+
+ Dot file t1.dot created
+
+/============================== TEST CASE 2 ==============================/
+
+
+ 	 directed ------- Unweighted
+
+
+Dot file t2.dot created
+
+/============================== TEST CASE 3 ==============================/
+
+
+ 	 directed ------- weightedr
+
+
+ Dot file t3.dot created
+
+/============================== TEST CASE 4 ==============================/
+
+
+ Adding vertex "Z" and Edges 
+
+
+ Dot File t4a.dot created
+ Deleting vertex "S" and Edges 
+
+ Deleting vertex "X" and Edges 
+
+ Deleting edges between "S" and "U and T" 
+
+
+ Dot File t4b.dot created
+
+/============================== TEST CASE 5 ==============================/
+
+
+ Adding vertex "6....10" and Edges 
+
+ Adding vertex "1....5" and Edges 
+
+
+ Dot File t5a.dot created
+ Deleting vertex "8 and then 6" 
+
+
+ Dot File t5b.dot created
+
+/============================== TEST CASE 6 ==============================
+
+
+Inserting random value: 8
+Inserting random value: 4
+Inserting random value: 6
+Inserting random value: 2
+Inserting random value: 10
+Inserting random value: 7
+Inserting random value: 3
+Inserting random value: 5
+Inserting random value: 1
+Inserting random value: 9
+Inserting edges
+
+1 2
+
+3 4
+
+5 6
+
+7 8
+
+9 10
+
+
+ Dot File t6a.dot created
+Deleting: 4
+Deleting: 3
+
+ t6b.dot created
+
+/============================== TEST CASE 7 ==============================/
+
+
+   Vertex Name 	 Distance from source vertex s
+
+	t			8
+	y			5
+	x			9
+	z			7
+
+   Vertex Name 	 Distance from source vertex t
+
+	s			11
+	y			2
+	x			1
+	z			4
+
+   Vertex Name 	 Distance from source vertex y
+
+	s			9
+	t			3
+	x			4
+	z			2
+
+   Vertex Name 	 Distance from source vertex x
+
+	s			11
+	t			19
+	y			16
+	z			4
+
+   Vertex Name 	 Distance from source vertex z
+
+	s			7
+	t			15
+	y			12
+	x			6
+
+
+/============================== TEST CASE 8 ==============================/
+
+
+   Vertex Name 	 Distance from source vertex s
+
+	t			7
+	y			5
+	x			8
+	z			7
+
+   Vertex Name 	 Distance from source vertex t
+
+	s			7
+	y			2
+	x			1
+	z			4
+
+   Vertex Name 	 Distance from source vertex y
+
+	s			5
+	t			2
+	x			3
+	z			2
+
+   Vertex Name 	 Distance from source vertex x
+
+	s			8
+	t			1
+	y			3
+	z			4
+
+   Vertex Name 	 Distance from source vertex z
+
+	s			7
+	t			4
+	y			2
+	x			4
+
+
+/============================== TEST CASE 9 ==============================/
+
+
+------------------------------------------------------------------------
+   Vertex Name 	 The Path from source vertex s to this vertex in G3
+------------------------------------------------------------------------
+	s 		nil
+	t 		s y t 
+	y 		s y 
+	x 		s y t x 
+	z 		s y z 
+
+------------------------------------------------------------------------
+   Vertex Name 	 The Path from source vertex z to this vertex in G3
+------------------------------------------------------------------------
+	s 		z s 
+	t 		z s y t 
+	y 		z s y 
+	x 		z x 
+	z 		nil
+
+
+/============================== TEST CASE 10 ==============================/
+
+
+------------------------------------------------------------------------
+   Vertex Name 	 The Path from source vertex s to this vertex in G3
+------------------------------------------------------------------------
+	s 		nil
+	t 		s y t 
+	y 		s y 
+	x 		s y t x 
+	z 		s z 
+
+------------------------------------------------------------------------
+   Vertex Name 	 The Path from source vertex z to this vertex in G3
+------------------------------------------------------------------------
+	s 		z s 
+	t 		z y t 
+	y 		z y 
+	x 		z x 
+	z 		nil
+
+
+/============================== TEST CASE 11 ==============================/
+
+
+Graph G3 Path: s->y->z->s->t
+
+ dot file t11.dot created!!
+
+/============================== TEST CASE 12 ==============================/
+
+
+Graph G4 Path:
+ s->y->x->t
+
+ Dot file t12.dot created
